@@ -40,18 +40,15 @@ hamlet.txt
 This dataset contains text from Shakespeare's Hamlet, allowing the model to learn contextual word relationships.
 
 
-#### Project Structure
-Deep-Learning-NLP/
-│
+#### Project Structure     
+Deep-Learning-NLP/       
 ├── README.md                     # Project documentation     
 ├── app.py                        # Prediction application     
 ├── experiments.ipynb             # Model training notebook    
-├── hamlet.txt                    # Training dataset    
-│      
+├── hamlet.txt                    # Training dataset         
 ├── lstm_model.h5                 # Trained LSTM model    
 ├── gru_model.h5                  # Trained GRU model     
-├── next_word_lstm.h5             # Final prediction model     
-│      
+├── next_word_lstm.h5             # Final prediction model              
 ├── model_comparison.png          # Visualization of results   
 ├── model_comparison_results.json # Model evaluation results     
 
